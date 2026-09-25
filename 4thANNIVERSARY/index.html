@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy 4th Anniversary 💕</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Falling hearts background -->
+  <div class="hearts-bg" id="heartsBg"></div>
+
+  <!-- Music Player -->
+  <audio id="bgMusic" loop preload="auto">
+    <source src="assets/lover.mp4" type="audio/mpeg">
+  </audio>
+  <button id="musicToggle" class="music-btn" title="Play/Pause music">
+    <span class="note">♪</span>
+  </button>
+
+  <!-- Promo banner -->
+  <section class="promo">
+    <div class="swirl-line">
+      <span class="swirl left"></span>
+      <span class="promo-heart">♥</span>
+      <span class="swirl right"></span>
+    </div>
+
+    <h1 class="promo-title">Happy <span class="promo-highlight">4th</span> Anniversary</h1>
+    
+
+    <div class="mockup-row">
+      <div class="side-decor left-decor">
+        <div class="balloon-stack">
+          <span class="balloon bl1">🎈</span>
+          <span class="balloon bl2">🎈</span>
+          <span class="balloon bl3">🎈</span>
+        </div>
+        <div class="gift">🎁</div>
+      </div>
+
+      <!-- Laptop mockup: this is the actual live site -->
+      <div class="laptop">
+        <div class="screen">
+
+          <header id="home" class="hero">
+            <div class="hero-top">
+              <div class="hero-text">
+                <h1 class="title">Happy Anniversary! <span class="highlight">♥</span></h1>
+                <p class="hint">Click the envelope to open it</p>
+
+                <div class="envelope-wrapper">
+                  <div class="envelope" id="envelope">
+                    <div class="flap"></div>
+                    <div class="pocket"></div>
+                    <div class="letter" id="letter">
+                      <button class="letter-close" id="letterClose" aria-label="Close letter">✕</button>
+                      <div class="letter-content">
+                        <p class="letter-heading">Hi, babe!</p>
+                        <p>HAPPY 4TH ANNIVERSARY, Miggy the Great! Grabe, babe. Greatest soldiers gid siguro tang duha, kay sa tanan nga crazy things nga nahitabo sa ato, sa mga away, misunderstandings, stressful days here we are, still choosing each other.</p>
+                        <p>Thank you for being a good partner, my chikabells, my kakampi, my comfort, unli jollibee and for always trying to understand me. Thank you for staying even during the times when things weren't easy. I know di man permi perfect ang atong relationship, and we both have our own struggles, but I'm grateful nga despite everything, we continue to choose each other.</p>
+                        <p>I know stressed ka gid right now, babe, and I want you to know that I understand you. You don't always have to explain everything to me. I know you're doing your best, and I hope you know that you don't have to carry everything alone. I'm here for you, just like you've been there for me.</p>
+                        <p>Four years is not a short time, and honestly, we've been through so much already. We've laughed, cried, fought, made up, annoyed each other HAHAHA, and somehow, we're still here. char ga English nako para dili crazy akong bisaya nga lawm hays akong baby dili maka sabot og bisaya na lawm 😭😂</p>
+                        <p>I may not always say it perfectly, but I love you so much, babe. Thank you for these four years, for all the memories, and for all the little moments that made our relationship what it is today.</p>
+                        <p>Happy 4th anniversary to us!<br>Here's to more chikabells, more gala, more memories, more away-and-bati moments HAHAHA, and hopefully many, many more years together.</p>
+                        <p class="letter-signature">Forever yours, <br>❤️</p>
+                      </div>
+                    </div>
+                    <span class="heart-seal">💗</span>
+                  </div>
+                </div>
+                <div class="backdrop" id="backdrop"></div>
+              </div>
+              <div class="couple-scene">
+                <img src="assets/picture.png" alt="Illustration of a couple holding a bouquet" class="couple-img">
+              </div>
+            </div>
+          </header>
+        </div>
+        <div class="laptop-base"></div>
+      </div>
+
+      <div class="side-decor right-decor">
+        <div class="panda">🐼</div>
+        <div class="flowers-card">
+          <span class="flowers">💐</span>
+          <span class="card-tag">Together<br>Always</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="promo-dots">
+      <span></span><span></span><span></span><span class="dot-heart">♥</span><span></span><span></span><span></span>
+    </div>
+  </section>
+  <footer class="footer">
+    <p>Made with 💗 to celebrate us · <span id="yearNow"></span></p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
